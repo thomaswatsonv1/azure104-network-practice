@@ -113,7 +113,7 @@ resource "azurerm_public_ip" "pip_vm1" {
   }
 }
 
-resource "azurerm_network_interface" "example1" {
+resource "azurerm_network_interface" "nic1" {
   name                = "nic1"
   location            = var.location
   resource_group_name = var.rg
